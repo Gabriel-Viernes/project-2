@@ -17,15 +17,6 @@ if (process.env.JAWSDB_URL) {
     }
   );
 
-// const db = new Sequelize({
-//   user: 'root', //process.env.DB_USER,
-//   password: 'password', //process.env.DB_PASSWORD,
-//   database: 'juicebox.db',
-//   host: '127.0.0.1', 
-//   dialect: 'mysql'
-//   
-// });
-
 }
 
 module.exports = sequelize;

@@ -20,6 +20,26 @@ router.get('/profile', withAuth, async (req, res) => {
     }
 });
 
+//Get all images and Join with user data
+
+router.get('/images', async (req, res) => {
+    try {
+        const imageData = await FileRef.findAll({
+            include: [
+                {
+                    model: User,
+                    attributes: ['username']
+                },
+            ],
+        });
+
+        //Serialize data so the template can read
+        
+    } catch (error) {
+        res.status(505).json(error);
+    }
+})
+
 router.get('/login', (req, res) => {
     if (req.session.logged_in) {
         res.redirect('/profile');

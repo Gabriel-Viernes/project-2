@@ -1,0 +1,15 @@
+<section class="home">
+<section class="homecontainer">
+    {{#each images as |image| }}
+    <div class="content">
+    <h1>Hello</h1>
+    <span class="imagecontainer">
+        <img class='homeimage' src='{{image.filename}}' alt="image">
+    </span>
+    <div>
+        {{image.user.user}}
+    </div>
+    </div>
+    {{/each}}
+</section>
+</section>

@@ -3,7 +3,7 @@ const { User, FileRef } = require('../models');
 const withAuth = require('../utils/auth');
 
 //
-router.get('/', async (req, res) => {
+router.get('/', withAuth, async (req, res) => {
     try {
         const imageData = await FileRef.findAll({
             include: [

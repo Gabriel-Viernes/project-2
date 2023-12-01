@@ -19,6 +19,7 @@ router.post('/', async (req, res) => {
 })
 
 router.post('/login', async (req, res) => {
+    console.log(req.session)
     try {
         const existingUser = await User.findOne({
             where: {username: req.body.username}
@@ -35,9 +36,10 @@ router.post('/login', async (req, res) => {
             req.session.username = existingUser.username
             req.session.loggedIn = true
             res.json({existingUser, message: 'You are logged in!'})
+            // res.redirect('/');
         })
     } catch (error) {
-        console.error(error)
+        console.log(error)
         res.status(500).json(error) 
     }
 })

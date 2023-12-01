@@ -1,7 +1,10 @@
 <section class="home">
+<form action="http://localhost:3001/api/images" method="post" enctype="multipart/form-data">
+    <label for="upload">Upload</label>
+    <input type="file" id="upload" name="upload">
+    <input type="submit" value="Submit">
+</form>
 <button id="logoutBtn">Logout</button>
-<input type="file" id="fileUp">
-<button id="fileUpBtn">Upload</button>
 <section class="homecontainer">
     {{#each images as |image| }}
     <div class="content">

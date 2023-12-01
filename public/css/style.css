@@ -34,3 +34,23 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 3em;
+    width: 30%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content:center;
+    text-align: center;
+}
+
+main h1 {
+
+}

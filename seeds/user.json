@@ -6,5 +6,9 @@
     {
         "username":"Rene Arnoux le Royal",
         "password":"longliveFrissel"
+    },
+    {
+        "username":"test",
+        "password":"test"
     }
 ]

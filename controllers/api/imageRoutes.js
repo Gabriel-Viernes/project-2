@@ -23,8 +23,5 @@ router.post('/', upload.single('upload'), async (req, res) => {
     }
 })
 
-async function writeFile(file) {
-    fs.writeFile("../../public/images", file)
-}
 
 module.exports = router;

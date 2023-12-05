@@ -63,6 +63,10 @@ main {
     text-align: center;
 }
 
+main a {
+    text-decoration:none;
+    color: black;
+}
 #username, #password {
     padding: 5px;
     margin: 5px;

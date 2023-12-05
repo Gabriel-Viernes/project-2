@@ -2,6 +2,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url(../images/brown-paper-bag.jpg);
+    background-color: bisque;
+    
+
+}
+
+.title {
+    font-family: shizuru;
+    font-size: 100px;
 }
 
 .imagecontainer {
@@ -38,6 +47,7 @@ body {
 .login-box {
     display: flex;
     flex-direction: column;
+    align-content: center;
     margin: auto;
     margin-top: 3em;
     width: 30%;
@@ -53,4 +63,19 @@ main {
 
 main h1 {
 
+}
+
+#username, #password {
+    padding: 5px;
+    margin: 5px;
+    border-style: groove;
+    /* border-radius: 5%; */
+}
+
+#login-button, #createacct {
+    padding: 5px;
+    margin: 5px;
+    /* width: 50%; */
+    /* border-radius: 5%; */
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
 }

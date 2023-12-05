@@ -30,10 +30,12 @@ body {
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
+    /* padding-top: 5px; */
+    margin-top: 3rem;
 }
 
 .home {
-    background-color: bisque;
+    /* background-color: bisque; */
     padding: 5rem;
 }
 
@@ -65,12 +67,12 @@ main a {
     text-decoration:none;
     color: black;
 }
-
 #username, #password {
     padding: 5px;
     margin: 5px;
     border-style: groove;
     /* border-radius: 5%; */
+    font-family: didact gothic;
 }
 
 #login-button, #createacct {
@@ -78,5 +80,55 @@ main a {
     margin: 5px;
     /* width: 50%; */
     /* border-radius: 5%; */
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+    font-family: didact gothic;
+    /* font-family: nunito; */
+    font-size: 16px;
+}
+
+.formcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 30px; */
+    padding: 5rem;
+    background-color: brown;
+    /* border-style:ridge; */
+    border-radius: 1%;
+    font-family: didact gothic;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+}
+
+.form {
+    /* background-color: bisque;
+    border-style: dashed; */
+    font-family: didact gothic;
+}
+
+.upload, .submit {
+    font-family: didact gothic;
+    /* border-style: dotted; */
+    font-size: 25px;
+    
+}
+
+#upload {
+    /* background-color: bisque; */
+    background-image: url(../images/brown-paper-bag.jpg);
+    border-style: dotted;
+    font-family: didact gothic;
+    font-size: 18px;
+}
+
+.LOheader {
+    display: flex;
+    justify-content: right;
+    padding-right: 5rem;
+}
+
+#logoutBtn {
+    font-size: 20px;
+    font-family: didact gothic;
+    /* background-color: brown; */
     box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
 }

@@ -124,6 +124,7 @@ main a {
     display: flex;
     justify-content: right;
     padding-right: 5rem;
+    padding-top: 3rem;
 }
 
 #logoutBtn {
@@ -131,4 +132,29 @@ main a {
     font-family: didact gothic;
     /* background-color: brown; */
     box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+}
+
+.fileupcontainer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeBtn {
+    padding: .25rem;
+    background-color: brown;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+    font-family: didact gothic;
+}
+
+.homeBtn:hover {
+    cursor: pointer;
+    box-shadow: 8px 8px 12px rgba(23, 10, 10, 0.6);
+}
+
+.accessImg {
+    font-family: didact gothic;
 }

@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS juicebox_db;
+CREATE DATABASE juicebox_db;

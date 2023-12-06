@@ -6,7 +6,12 @@ body {
     background-color: bisque;
 }
 
+.main-container a {
+    text-decoration: none;
+    color:black;
+}
 .title {
+
     font-family: shizuru;
     font-size: 100px;
     margin: 0; 
@@ -64,10 +69,6 @@ main {
     padding-bottom: 20px;
 }
 
-main a {
-    text-decoration:none;
-    color: black;
-}
 #username, #password {
     padding: 5px;
     margin: 5px;
@@ -169,7 +170,6 @@ main a {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     
 }
 

@@ -4,13 +4,12 @@ body {
     box-sizing: border-box;
     background-image: url(../images/brown-paper-bag.jpg);
     background-color: bisque;
-    
-
 }
 
 .title {
     font-family: shizuru;
     font-size: 100px;
+    margin: 0; 
 }
 
 .imagecontainer {
@@ -55,12 +54,14 @@ body {
     width: 30%;
 }
 
+
 main {
     display: flex;
     flex-direction: column;
     margin: auto;
     justify-content:center;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 main a {
@@ -158,3 +159,18 @@ main a {
 .accessImg {
     font-family: didact gothic;
 }
+
+.site-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+

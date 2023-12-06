@@ -17,7 +17,7 @@ router.get('/', withAuth, async (req, res) => {
         const images = imageData.map((image) => image.get({
             plain: true
         }))
-        console.log(images)
+        console.log(images, '!!!!')
         res.render('home', {images})
     } catch (error) {
         console.error(error)

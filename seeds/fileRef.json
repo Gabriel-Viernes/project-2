@@ -1,16 +1,16 @@
 [
     {
-        "filename": "/images/crazy-cat.jpeg",
+        "filename": "/crazy-cat.jpeg",
         "uuid": "60cdc14f-106e-4d9c-88e2-ef0f2f139a97"
        
     },
     {
-        "filename": "/images/cat-basket.jpg",
+        "filename": "/cat-basket.jpg",
         "uuid": "b9c2983e-ca08-4905-a2f1-c42d5e2f31cb"
         
     },
     {
-        "filename": "/images/hello-cat.jpg",
+        "filename": "/hello-cat.jpg",
         "uuid": "b9c2983e-ca08-4905-a2f1-c42d5e2f31cb"
         
     }

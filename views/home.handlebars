@@ -1,16 +1,18 @@
+
 <section class="home">
-<form action="http://localhost:3001/api/images" method="post" enctype="multipart/form-data">
-    <label for="upload">Upload</label>
-    <input type="file" id="upload" name="upload">
-    <input type="submit" value="Submit">
-</form>
-<button id="logoutBtn">Logout</button>
+    <div class="formcontainer">
+        <form class="form" action="http://localhost:3001/api/images" method="post" enctype="multipart/form-data">
+            <label class="upload" for="upload">Upload</label>
+            <input type="file" id="upload" name="upload">
+            <input class="submit" type="submit" value="Submit">
+        </form>
+    </div>
+
 <section class="homecontainer">
     {{#each images as |image| }}
     <div class="content">
-    <h1>Hello</h1>
     <span class="imagecontainer">
-        <img class='homeimage' src='{{image.filename}}' alt="image">
+        <img class='homeimage' src='/images/{{image.filename}}' alt="image">
     </span>
     <div>
         {{image.user.user}}

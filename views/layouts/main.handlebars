@@ -11,7 +11,19 @@
     <title>JUICEBOX</title>
 </head>
 <body>
-
+    {{#if images}}
+        <style>
+            .main-container {
+                flex-direction: row;
+            }
+        </style>
+    {{else}}
+        <style>
+            .main-container {
+                flex-direction: column;
+            }
+        </style>
+    {{/if}}
     <div class="main-container">
         <a href="/"><h1 class="title">JUICEBOX</h1></a>
         <div class="site-logo"><img src="/images/orange-juiceb.png" alt="logo"></div>

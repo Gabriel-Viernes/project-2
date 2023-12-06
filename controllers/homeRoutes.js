@@ -19,7 +19,7 @@ router.get('/', withAuth, async (req, res) => {
         }))
         console.log(images) 
         res.render('home', {images: images})
-       
+      
     } catch (error) {
         console.error(error)
         res.status(500).json(error)
